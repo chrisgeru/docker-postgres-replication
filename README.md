@@ -5,9 +5,7 @@ Master/Slave Postgres Replication in 30 seconds.
   * Quickstart: `docker-compose up`
   * For production, use docker-compose, Kubernetes, Rancher, Tutum, other PaaS tooling, ... or roll your own.
   * To see container environment variable requirements, see `docker-compose.yml`.
-  * To demonstrate multiple slaves:
-    * `docker-compose up`
-    * `docker-compose scale pg-slave=3`
+  * Open master database on port 5435 and slave database on port 5436
 
 ## Notes
 
